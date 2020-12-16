@@ -1,0 +1,24 @@
+.jumbotron {
+    font-family: 'Lora', serif;
+    text-align: left;
+    overflow: hidden;
+    max-height: 700px;
+}
+
+.jumbotron img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+.row {
+    animation: color-change 4s;
+}
+@keyframes color-change {
+    0% {
+        color: gray;
+    }
+    100%  {
+        color: black;
+    }
+}
