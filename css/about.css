@@ -1,0 +1,18 @@
+.aboutCont {
+    background-image: url("../assets/cloudsBrown.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 35vh;
+    color: var(--timberwolf);
+}
+
+.aboutTitle {
+    font-size: 75px;
+}
+
+.container {
+    margin-top: auto;
+    text-align: center;
+    font-size: 20px;
+}

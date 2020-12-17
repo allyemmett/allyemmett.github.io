@@ -1,5 +1,6 @@
 .jumbotron {
     font-family: 'Lora', serif;
+    background-color: var(--timberwolf);
     text-align: left;
     overflow: hidden;
     max-height: 700px;
@@ -12,13 +13,18 @@
 }
 
 .row {
-    animation: color-change 4s;
+    animation: color-change 5s;
 }
 @keyframes color-change {
     0% {
-        color: gray;
+        color: var(--timberwolf);
     }
     100%  {
         color: black;
     }
+}
+
+.col-lg-4 {
+    color: var(--bittersweet);
+    border-radius: 50%;
 }

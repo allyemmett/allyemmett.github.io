@@ -1,3 +1,13 @@
-.navbar {
+.navbar-custom {
+    background-color: var(--roseEbony);
     font-family: 'Lora', serif;
+    
+}
+
+.nav-link {
+    color: var(--timberwolf);
+}
+
+.nav-link:hover {
+    color: var(--bittersweet);
 }
