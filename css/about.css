@@ -3,16 +3,38 @@
     background-position: center bottom;
     background-size: cover;
     background-attachment: fixed;
-    height: 35vh;
+    height: 100vh;
     color: var(--timberwolf);
+    font-family: 'Lora', serif;
+    text-align: center;
 }
 
 .aboutTitle {
     font-size: 75px;
+    margin-top: 50px;
+    padding: 50px;
+    text-align: center;
 }
 
 .container {
-    margin-top: auto;
-    text-align: center;
+    /* padding-top: 200px; */
     font-size: 20px;
 }
+
+@media only screen and (max-width: 768px) {
+    .aboutCont {
+        height: 200%;
+    }
+  }
+
+p {
+    padding: 25px 25px ;
+}
+
+ .about-link {
+     color: var(--bittersweet);
+ }
+
+ .about-link:hover {
+     color: black
+ }

@@ -1,0 +1,38 @@
+#projects {
+    height: 100vh;
+    line-height: 200px;
+    margin-top: 50px;
+    background-image: linear-gradient(to top left, var(--timberwolf), var(--roseEbony));
+    font-family: 'Lora', serif;
+}
+
+.projectsTitle {
+    padding-top: 100px;
+    margin-top: 25px;
+    font-size: 75px;
+}
+
+.col-md-4 {
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.img-responsive:hover {
+    transform: scale(1.10, 1.10);
+    opacity: 0.5;
+  }
+
+@media only screen and (max-width: 768px) {
+    .col-md-4 {
+        text-align: center;
+    }
+    #projects {
+        height: 200%;
+    }
+  }
+
+
+
+

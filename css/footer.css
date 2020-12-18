@@ -1,0 +1,15 @@
+#footer {
+    padding-top: 55px;
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+.footer-link {
+    color: var(--bittersweet);
+}
+
+.footer-link:hover {
+    size: 110%;
+    color: var(--bittersweet)
+}
+

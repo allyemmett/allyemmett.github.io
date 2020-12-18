@@ -1,7 +1,16 @@
 .navbar-custom {
     background-color: var(--roseEbony);
     font-family: 'Lora', serif;
+    transition-delay: 3s;
     
+}
+.navbar-brand {
+    font-family: "Lora", serif;
+    color: var(--timberwolf);
+}
+
+.navbar-brand:hover {
+    color: var(--bittersweet);
 }
 
 .nav-link {
